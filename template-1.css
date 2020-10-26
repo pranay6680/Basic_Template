@@ -1,0 +1,126 @@
+* {
+    margin : 0;
+    padding : 0;
+}
+
+.box {
+    background-image: url('table.jpg') ;
+    background-size : cover;
+    background-position-y: bottom;
+   position : relative;
+    
+    
+   
+}
+.backcolor {
+    position : absolute;
+    width : 100%;
+    height : 100%;
+    background-color : black;
+    opacity : 0.3;
+   
+    top : 0;
+}
+.appy>i {
+    font-size : 31px;
+    z-index : 3;
+    
+}
+
+.solo { 
+    margin-left : 140px;
+}
+.solo button{
+    padding-top : 5px;
+    padding-left :  20px;
+    padding-right : 20px;
+    padding-bottom : 5px;
+    border-radius : 20px;
+    outline-style : none;
+    border : none;
+    background-color : skyblue;
+    
+}
+.solo button>span {
+    font-size : 13px;
+    margin : auto 0;
+    color : black;
+    
+}
+.blogspot a {
+    color : whitesmoke;
+}
+/*middle content*/
+.para {
+    width : 400px;
+    margin : auto 0;
+    color : white;
+    margin-left : -87px;
+}
+.para>span {
+    color : skyblue;
+}
+.lorem {
+    font-size : 13px;
+}
+.blue>button {
+    padding : 8px 15px;
+    border-radius : 20px;
+    border : none;
+    outline-style: none;
+}
+.blue button>span {
+    color : blue;
+    padding-left : 5px;
+    font-weight: bold;
+}
+.second {
+    justify-content: center;
+    position : relative;
+    top : 69px;
+    z-index : 2;
+}
+.second>img{
+    width : 500px;
+    height : 500px;
+}
+
+
+/*bottom content*/
+.footer {
+    text-align: center;
+    width : 550px;
+    margin : 0 auto;
+    margin-top : 105px;
+}
+.icon>span {
+    font-size : 30px;
+}
+.mouse::before {
+    content : ' ';
+    background : lightgrey;
+    width : 80px;
+    height : 2px;
+    position : relative;
+    display : block;
+    top : 14px;
+    bottom : 5px;
+    left : 140px;
+    
+
+}
+.mouse::after {
+    content : ' ';
+    background : lightgrey;
+    width : 80px;
+    height : 2px;
+    position : relative;
+    display : block;
+    top : -11px;
+    bottom : 0px;
+    right : -325px;
+}
+
+.letter p>a {
+    text-decoration : none;
+}
